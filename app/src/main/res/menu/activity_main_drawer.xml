@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_laporanku"
+            android:icon="@drawable/ic_assignment_black"
+            android:title="Laporanku" />
+        <item
+            android:id="@+id/nav_kantor"
+            android:icon="@drawable/ic_kantor_polisi_black"
+            android:title="Kantor Polisi" />
+        <item
+            android:id="@+id/nav_berita"
+            android:icon="@drawable/ic_news_black"
+            android:title="Berita" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_pengaturan"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Pengaturan" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Tentang" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.topapp.radinaldn.smartpolicepelapor.activities.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/bg_main2"
+        android:textAlignment="center"
+        android:textSize="42sp"
+        android:textColor="@color/textColorWhite"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+
+        android:background="@color/colorAquaDark"
+        android:text="@string/app_name"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        />
+
+
+</LinearLayout>

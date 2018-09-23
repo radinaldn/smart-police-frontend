@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.topapp.radinaldn.smartpolicepelapor.activities.DetailLaporanActivity"
+    tools:showIn="@layout/activity_detail_laporan">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            style="@style/TextSpec.Field"
+            android:text="Detail"
+
+            />
+
+        <View
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Ini Pelapor"
+            android:id="@+id/tv_pelapor"
+            style="@style/TextSpec.Value" />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            style="@style/TextSpec.Gray"
+            android:text="Pelapor"
+            />
+        <View
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Ini lokasi"
+            android:id="@+id/tv_lokasi"
+            style="@style/TextSpec.Value" />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            style="@style/TextSpec.Gray"
+            android:text="Lokasi"
+            />
+
+
+
+        <View
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Ini Ket"
+            android:id="@+id/tv_ket"
+            style="@style/TextSpec.Value" />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            style="@style/TextSpec.Gray"
+            android:text="Ket"
+            />
+
+        <View
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Ini Kategori"
+            android:id="@+id/tv_kategori"
+            style="@style/TextSpec.Value" />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            style="@style/TextSpec.Gray"
+            android:text="Kategori"
+            />
+
+        <View
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Ini Status"
+            android:id="@+id/tv_status"
+            style="@style/TextSpec.Value" />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            style="@style/TextSpec.Gray"
+            android:text="Status"
+            />
+
+        <View
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Ini Tanggal"
+            android:id="@+id/tv_tanggal"
+            style="@style/TextSpec.Value" />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            style="@style/TextSpec.Gray"
+            android:text="Tanggal"
+            />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
